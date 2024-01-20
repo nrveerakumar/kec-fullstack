@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+
+.con
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    background-color: black;
+}
+.item
+{
+    background-color: blueviolet;
+    padding: 10%;
+   
+}
+@media (max-width:800px) {
+    .con{
+        grid-template-columns: repeat(2, 1fr);
+        background-color: rgba(109, 236, 18, 0.849);
+    }
+    
+}
+</style>
+</head>
+<body>
+    <div class="con">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+</body>
+</html>
